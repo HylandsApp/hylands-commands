@@ -1,8 +1,8 @@
 'use strict';
 
 const { Broadcast, ItemType } = require('ranvier');
-const ArgParser = require('../../bundle-example-lib/lib/ArgParser');
-const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
+const ArgParser = require('../../hylands-lib/lib/ArgParser');
+const ItemUtil = require('../../hylands-lib/lib/ItemUtil');
 
 module.exports = {
   aliases: [ 'unwield', 'unequip' ],
